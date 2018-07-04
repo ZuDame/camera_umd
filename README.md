@@ -7,3 +7,11 @@ for USB Video Class cameras. Please consider using `libuvc_camera` or another ca
 supports the USB Video Class specification (as most webcams and several machine vision cameras do).
 
 Documentation for this package can be found at [its wiki page](http://wiki.ros.org/uvc_camera).
+
+
+#########
+rosrun uvc_camera uvc_camera_node
+
+rosrun image_viewer image_viewer image:=/image_raw
+
+#########
