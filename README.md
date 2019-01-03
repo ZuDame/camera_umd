@@ -11,6 +11,7 @@ Documentation for this package can be found at [its wiki page](http://wiki.ros.o
 
 安装此包需要配置文件,libv412-dev(若不安装，编译时会报错--libv4l2.h,没有这个文件)
 ################
+
 sudo apt-get install libv4l-dev
 
 #########
